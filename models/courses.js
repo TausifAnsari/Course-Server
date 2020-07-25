@@ -8,6 +8,10 @@ var urlSchema = new Schema({
     url:  {
         type: String,
         required: true
+    },
+    title: {
+        type:String,
+        required:true
     }
 });
 
